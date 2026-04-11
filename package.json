@@ -1,0 +1,26 @@
+{
+  "name": "express-graduation-project",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start:dev": "concurrently \"tsc -watch\" \"node --watch dist/index.js\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@types/express": "^5.0.6",
+    "@types/multer": "^2.0.0",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "express": "^5.2.1",
+    "multer": "^2.0.2",
+    "stripe": "^20.1.0",
+    "typescript": "^5.9.3",
+    "zod": "^4.1.13"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.19"
+  }
+}
